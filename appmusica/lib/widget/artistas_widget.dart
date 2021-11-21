@@ -3,12 +3,12 @@ import 'package:appmusica/data/artistas.dart';
 
 import 'artista_widget.dart';
 
-class LocationsWidget extends StatefulWidget {
+class ArtistsWidget extends StatefulWidget {
   @override
-  _LocationsWidgetState createState() => _LocationsWidgetState();
+  _ArtistsWidgetState createState() => _ArtistsWidgetState();
 }
 
-class _LocationsWidgetState extends State<LocationsWidget> {
+class _ArtistsWidgetState extends State<ArtistsWidget> {
   final pageController = PageController(viewportFraction: 0.8);
   int pageIndex = 0;
 
@@ -21,7 +21,7 @@ class _LocationsWidgetState extends State<LocationsWidget> {
               itemCount: artists.length,
               itemBuilder: (context, index) {
                 final artist = artists[index];
-                return LocationWidget(artist: artist);
+                return ArtistWidget(artist: artist);
               },
               onPageChanged: (index) => setState(() => pageIndex = index),
             ),

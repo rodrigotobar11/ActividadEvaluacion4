@@ -5,19 +5,19 @@ import 'package:appmusica/page/detail_page.dart';
 import 'package:appmusica/widget/expanded_content_widget.dart';
 import 'package:appmusica/widget/image_widget.dart';
 
-class LocationWidget extends StatefulWidget {
+class ArtistWidget extends StatefulWidget {
   final Artist artist;
 
-  const LocationWidget({
+  const ArtistWidget({
     @required this.artist,
     Key key,
   }) : super(key: key);
 
   @override
-  _LocationWidgetState createState() => _LocationWidgetState();
+  _ArtistWidgetState createState() => _ArtistWidgetState();
 }
 
-class _LocationWidgetState extends State<LocationWidget> {
+class _ArtistWidgetState extends State<ArtistWidget> {
   bool isExpanded = false;
 
   @override

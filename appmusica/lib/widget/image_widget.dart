@@ -37,7 +37,7 @@ class ImageWidget extends StatelessWidget {
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: [
                   buildTopText(),
-                  LatLongWidget(artist: artist),
+                  GenCatWidget(artist: artist),
                 ],
               ),
             )

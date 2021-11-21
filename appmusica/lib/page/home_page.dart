@@ -6,7 +6,7 @@ class HomePage extends StatelessWidget {
   Widget build(BuildContext context) => Scaffold(
         backgroundColor: Colors.blueGrey,
         appBar: buildAppBar(),
-        body: LocationsWidget(),
+        body: ArtistsWidget(),
       );
 
   Widget buildAppBar() => AppBar(

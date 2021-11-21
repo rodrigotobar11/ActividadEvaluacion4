@@ -41,7 +41,7 @@ class DetailPage extends StatelessWidget {
                   ),
                   Container(
                     padding: const EdgeInsets.all(8),
-                    child: LatLongWidget(artist: artist),
+                    child: GenCatWidget(artist: artist),
                   ),
                 ],
               ),

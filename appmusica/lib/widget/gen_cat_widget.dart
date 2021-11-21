@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:appmusica/model/artista.dart';
 
-class LatLongWidget extends StatelessWidget {
+class GenCatWidget extends StatelessWidget {
   final Artist artist;
 
-  const LatLongWidget({
+  const GenCatWidget({
     @required this.artist,
     Key key,
   }) : super(key: key);
